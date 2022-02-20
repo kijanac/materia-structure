@@ -1,0 +1,15 @@
+tolerance 2.0
+output pack.xyz
+filetype xyz
+
+structure h2o.xyz
+  number 30
+  inside box 0. 0. 0. 10. 10. 10.
+end structure
+
+structure h2o.xyz
+  number 100
+  outside box 0. 0. 0. 10. 10. 10.
+end structure
+
+nloop 200
