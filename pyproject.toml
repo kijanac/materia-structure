@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "materia-structure"
-version = "0.1.0"
+version = "1.0.0"
 description = "Unified interface to write input files for quantum chemistry codes"
 authors = ["Ki-Jana Carter <kijana@mit.edu>"]
 license = "MIT"
