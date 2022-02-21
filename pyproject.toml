@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "materia-structure"
 version = "1.0.0"
-description = "Unified interface to write input files for quantum chemistry codes"
+description = "Streamlined interface for managing atomistic structure data."
 authors = ["Ki-Jana Carter <kijana@mit.edu>"]
 license = "MIT"
 readme = "README.rst"
