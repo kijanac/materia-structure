@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "materia-structure"
-version = "1.0.0"
+version = "1.1.0"
 description = "Streamlined interface for managing atomistic structure data."
 authors = ["Ki-Jana Carter <kijana@mit.edu>"]
 license = "MIT"
@@ -28,7 +28,6 @@ version = "^v3.1.1"
 git = "https://github.com/openbabel/openbabel.git"
 
 [tool.poetry.dev-dependencies]
-anaconda-client = "^1.2.2"
 black = "^20.8b1"
 flake8 = "^3.8.4"
 poetry2conda = "^0.3.0"
