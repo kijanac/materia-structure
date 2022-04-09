@@ -273,6 +273,34 @@ class Structure:
         s = Structure.from_coordinates(elements, coordinates)
         self.pybelmol = s.pybelmol
 
+    def draw(
+        self,
+        show: Optional[bool] = True,
+        filename: Optional[str] = None,
+        update: Optional[bool] = False,
+        usecoords: Optional[bool] = True,
+    ) -> None:
+        """Draw 2D representation of structure.
+
+        Parameters
+        ----------
+        show: bool, optional
+            If `True`, show drawing on screen.
+            By default `True`.
+        filename: str, optional
+            Filename to which drawing is written.
+            By default `None`.
+        update: bool, optional
+            If `True`, update 2D coordinates using diagram generator.
+            By default `False`.
+        usecoords: bool, optional
+            If `True`, use current coordinates to draw.
+            By default `True`.
+        """
+        self.pybelmol.draw(
+            show=show, filename=filename, update=update, usecoords=usecoords
+        )
+
     def write(
         self,
         filepath: str,
