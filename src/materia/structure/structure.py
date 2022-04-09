@@ -485,7 +485,7 @@ class Structure:
     @property
     @functools.cache
     def mass(self) -> unyt.unyt_quantity:
-        """unyt.unyt_quantity: Molecular mass in amu. """
+        """unyt.unyt_quantity: Molecular mass in amu."""
         return self.pybelmol.exactmass * unyt.amu
 
     @property
