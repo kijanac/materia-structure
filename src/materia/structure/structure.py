@@ -68,7 +68,6 @@ class Structure:
             Structure from coordinates.
         """
         obmol = ob.OBMol()
-        print(coordinates)
 
         for Z, (x, y, z) in zip(
             elements, np.split(np.array(coordinates), len(elements))
